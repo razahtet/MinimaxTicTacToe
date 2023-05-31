@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+
+h1 {
+  color: seagreen;
+  font-family: "Chelsea Market", cursive;
+}
+
+body {
+  background-color: skyblue;
+  font-family: "DM Mono", monospace;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Tenali Ramakrishna", sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+  color: darkblue;
+  background-color: coral;
+}
+
+.levelsC {
+  display: none;
+}
+
+#backButton,
+#computerFirstButton {
+  display: none;
+}
+
+#board {
+  font-size: 0px;
+  display: none;
+}
+
+.boxes {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  height: 150px;
+  font-size: 125px;
+  text-align: center;
+  border: 5px ridge gold;
+}
+
+#restartButton {
+  display: none;
+}
+
+#message {
+  display: inline-block;
+  color: DarkOrchid;
+  font-size: 40px;
+  vertical-align: middle;
+  margin-left: 30px;
+  text-align: center;
+}
+
+#outBoard,
+#messageDiv,
+#whoX,
+#whoO {
+  display: inline-block;
+}
+
+#whoX {
+  margin-right: 223px;
+}
+
+#backButton {
+  color: floralwhite;
+  background-color: black;
+}
