@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Supreme Tic Tac Toe!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Supreme Tic Tac Toe!</h1>
+    <h4 style="color:darkblue">By Raza (Htet) Hlaing</h4>
+    <h2 id="chooseBelow">
+      Choose one of the below:
+    </h2>
+    <button id="twoPlayerButton">
+      Two Player
+    </button>
+    <button id="computerButton">
+      Computer
+    </button>
+    <button class="levelsC" id="easyButton">
+      Easy
+    </button>
+    <button class="levelsC" id="mediumButton">
+      Medium
+    </button>
+    <button class="levelsC" id="impossibleButton">
+      Impossible
+    </button>
+    <button id="backButton">
+      Go Back
+    </button>
+    <div id="outBoard">
+      <div id="board">
+        <div id="firstrow">
+          <div class="boxes" id="fbox"></div>
+          <div class="boxes" id="sbox"></div>
+          <div class="boxes" id="tbox"></div>
+        </div>
+        <div id="secondrow">
+          <div class="boxes" id="fobox"></div>
+          <div class="boxes" id="fibox"></div>
+          <div class="boxes" id="skbox"></div>
+        </div>
+        <div id="thirdrow">
+          <div class="boxes" id="sefbox"></div>
+          <div class="boxes" id="efbox"></div>
+          <div class="boxes" id="nfbox"></div>
+        </div>
+      </div>
+    </div>
+    <div id="messageDiv">
+      <p id="message"></p>
+    </div>
+    <div>
+      <h3 id="whoX"></h3>
+      <h3 id="whoO"></h3>
+    </div>
+    <div>
+      <button id="restartButton">
+        Restart
+      </button>
+      <button id="computerFirstButton">
+        Let the Computer Go First
+      </button>
+    </div>
+  </body>
+</html>
