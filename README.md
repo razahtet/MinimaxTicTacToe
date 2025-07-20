@@ -13,6 +13,3 @@ Two Modes:
   - Press "Let Computer Go First" to let the computer play a move first (will restart the game)
   - Press "Let Player Go First" to let the player play a move first (will restart the game)
 - Press "Restart" to restart the game
-
-# Website Demo
-https://minimax-tic-tac-toe.glitch.me/
